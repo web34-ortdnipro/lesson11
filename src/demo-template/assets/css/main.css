@@ -1,38 +1,83 @@
-main > div { 
-    text-align: center; 
-    font-size: 32pt; 
-    color: white;
-}
 
-.cell-a{
-    background: red;
-}
+    @font-face{
+        font-family: 'JetBrains Mono';
+        src: url('../fonts/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+            url('../fonts/JetBrainsMono-Regular.woff2') format('woff2'),
+            url('../fonts/JetBrainsMono-Regular.woff') format('woff'),
+            url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-.cell-b{
-    background: green;
-}
+    @font-face{
+        font-family: 'JetBrains Mono';
+        src: url('../fonts/JetBrainsMono-Bold.eot') format('embedded-opentype'),
+            url('../fonts/JetBrainsMono-Bold.woff2') format('woff2'),
+            url('../fonts/JetBrainsMono-Bold.woff') format('woff'),
+            url('../fonts/JetBrainsMono-Bold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+    }
 
-.cell-c{
-    background: blue;
-}
+    @font-face{
+        font-family: 'JetBrains Mono';
+        src: url('../fonts/JetBrainsMono-Italic.eot') format('embedded-opentype'),
+            url('../fonts/JetBrainsMono-Italic.woff2') format('woff2'),
+            url('../fonts/JetBrainsMono-Italic.woff') format('woff'),
+            url('../fonts/JetBrainsMono-Italic.ttf') format('truetype');
+        font-weight: normal;
+        font-style: italic;
+    }
 
-.cell-d{
-    background: chocolate;
-}
+    @font-face{
+        font-family: 'JetBrains Mono';
+        src: url('../fonts/JetBrainsMono-Bold-Italic.eot') format('embedded-opentype'),
+            url('../fonts/JetBrainsMono-Bold-Italic.woff2') format('woff2'),
+            url('../fonts/JetBrainsMono-Bold-Italic.woff') format('woff'),
+            url('../fonts/JetBrainsMono-Bold-Italic.ttf') format('truetype');
+        font-weight: 600;
+        font-style: italic;
+    }
 
-.cell-e{
-    background: orange;
-}
+    * {
+        font-family: 'JetBrains Mono' ;
+    }
 
-.cell-f{
-    background: indigo;
-}
+    main > div { 
+        text-align: center; 
+        font-size: 32pt; 
+        color: white;
+    }
 
-.cell-g{
-    background: maroon;
-}
+    .cell-a{
+        background: red;
+    }
 
-main {
-    background: skyblue;
-    padding: 20px;
-}
+    .cell-b{
+        background: green;
+    }
+
+    .cell-c{
+        background: blue;
+    }
+
+    .cell-d{
+        background: chocolate;
+    }
+
+    .cell-e{
+        background: orange;
+    }
+
+    .cell-f{
+        background: indigo;
+    }
+
+    .cell-g{
+        background: maroon;
+    }
+
+    main {
+        background: skyblue;
+        padding: 20px;
+    }
