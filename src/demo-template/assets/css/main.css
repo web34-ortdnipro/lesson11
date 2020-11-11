@@ -1,0 +1,38 @@
+main > div { 
+    text-align: center; 
+    font-size: 32pt; 
+    color: white;
+}
+
+.cell-a{
+    background: red;
+}
+
+.cell-b{
+    background: green;
+}
+
+.cell-c{
+    background: blue;
+}
+
+.cell-d{
+    background: chocolate;
+}
+
+.cell-e{
+    background: orange;
+}
+
+.cell-f{
+    background: indigo;
+}
+
+.cell-g{
+    background: maroon;
+}
+
+main {
+    background: skyblue;
+    padding: 20px;
+}
